@@ -15,22 +15,15 @@ This included:
 - Clearly describing images using alt text
 - Adding ARIA roles and labels to identify elements of the page
 
+Building this project allowed for the opportunity to further research accessibilty standards in development. This allows for more people to have the full picture of what this website holds for information, thus allowing for more inclusive distribution. 
+
+I started by renaming the div classes to semantic HTML tags such as header, nav, main, etc. Next I added alt text to all the images offering information about what each image holds. I added aria labels and roles to important elements of the page. 
+
+After making changes to the HTML I included the background image in the HTML and added an alt tag so that it would be seen by a screen reader. This them required some adjusting in the CSS to ensure a proper positioning and aspect ratio. 
+
+Finally I simplified the CSS to avoid repeating syles.
 
 
-## Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 ## Credits
 Research for this project was done using various readily available resources some of which include:
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/main_role
